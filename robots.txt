@@ -1,0 +1,101 @@
+# MediAlert+ Robots.txt
+# https://www.medialert.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow search engines to crawl all important content
+Allow: /src/assets/
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Disallow crawling of development and system files
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /build/
+Disallow: /.env*
+Disallow: /.cache/
+Disallow: /.tmp/
+Disallow: /.well-known/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /.idea/
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /dashboard/
+Disallow: /account/
+Disallow: /checkout/
+Disallow: /payment/
+
+# Disallow temporary and test files
+Disallow: /test/
+Disallow: /tests/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /*.tmp$
+Disallow: /*.temp$
+Disallow: /*.log$
+
+# Disallow development routes
+Disallow: /dev/
+Disallow: /staging/
+Disallow: /debug/
+Disallow: /preview/
+
+# Allow specific important pages
+Allow: /$
+Allow: /about$
+Allow: /contact$
+Allow: /programs$
+Allow: /protection$
+Allow: /how-it-works$
+Allow: /why-us$
+Allow: /privacy-policy$
+Allow: /terms-of-service$
+Allow: /medical-ids$
+Allow: /compare-plans$
+Allow: /renew-plans$
+
+# Sitemap location
+Sitemap: https://medialert.com/sitemap.xml
+
+# Crawl delay (optional - be respectful to server)
+Crawl-delay: 1
+
+# Special instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: BacklinkCrawler
+Disallow: /

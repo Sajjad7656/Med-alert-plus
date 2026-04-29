@@ -1,0 +1,170 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js,jsx,ts,tsx,vue}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# CSS, SCSS, LESS files
+[*.{css,scss,less,sass}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.md]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+trim_trailing_whitespace = false
+
+# Configuration files
+[*.{toml,ini,cfg}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Package files
+[package.json]
+indent_style = space
+indent_size = 2
+
+# TypeScript Config
+[tsconfig.json]
+indent_style = space
+indent_size = 2
+
+# Tailwind Config
+[tailwind.config.js]
+indent_style = space
+indent_size = 2
+
+# Vite Config
+[vite.config.ts]
+indent_style = space
+indent_size = 2
+
+# ESLint Config
+[eslint.config.js]
+indent_style = space
+indent_size = 2
+
+# Prettier Config
+[.prettierrc]
+indent_style = space
+indent_size = 2
+
+# Editor files
+[.editorconfig]
+indent_style = space
+indent_size = 2
+
+# Git files
+[.gitignore]
+indent_style = space
+indent_size = 2
+
+# Docker files
+[Dockerfile*]
+indent_style = space
+indent_size = 2
+
+# Shell scripts
+[*.{sh,bash,zsh}]
+indent_style = space
+indent_size = 2
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Ruby files
+[*.rb]
+indent_style = space
+indent_size = 2
+
+# Go files
+[*.go]
+indent_style = tab
+indent_size = 4
+
+# Rust files
+[*.rs]
+indent_style = space
+indent_size = 4
+
+# C/C++ files
+[*.{c,cpp,h,hpp}]
+indent_style = space
+indent_size = 4
+
+# Java files
+[*.java]
+indent_style = space
+indent_size = 4
+
+# PHP files
+[*.php]
+indent_style = space
+indent_size = 4
+
+# Swift files
+[*.swift]
+indent_style = space
+indent_size = 4
+
+# Kotlin files
+[*.kt]
+indent_style = space
+indent_size = 4
+
+# Scala files
+[*.scala]
+indent_style = space
+indent_size = 2
