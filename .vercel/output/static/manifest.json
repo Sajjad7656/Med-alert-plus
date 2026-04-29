@@ -1,0 +1,13 @@
+{
+  "name": "MediAlert - Professional Medical Alert Systems",
+  "short_name": "MediAlert",
+  "description": "24/7 medical alert monitoring and emergency response services for seniors and individuals needing protection.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": ["medical", "health", "safety"],
+  "lang": "en-US"
+}
