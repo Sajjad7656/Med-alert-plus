@@ -7,7 +7,12 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 import { nitro } from "nitro/vite";
 
+const nitroBuildPlugins = nitro().map((plugin) => ({
+  ...plugin,
+  apply: "build" as const,
+}));
+
 export default defineConfig({
   cloudflare: false,
-  plugins: [nitro()],
+  plugins: nitroBuildPlugins,
 });
